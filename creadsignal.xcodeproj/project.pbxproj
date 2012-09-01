@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F384FB15F1BA8F00DD9118 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C7F384FA15F1BA8F00DD9118 /* main.c */; };
+		C7F384FD15F1BA8F00DD9118 /* creadsignal.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7F384FC15F1BA8F00DD9118 /* creadsignal.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7F384F415F1BA8F00DD9118 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C7F384FD15F1BA8F00DD9118 /* creadsignal.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7F384F615F1BA8F00DD9118 /* creadsignal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = creadsignal; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F384FA15F1BA8F00DD9118 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C7F384FC15F1BA8F00DD9118 /* creadsignal.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = creadsignal.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F384F315F1BA8F00DD9118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F384EB15F1BA8F00DD9118 = {
+			isa = PBXGroup;
+			children = (
+				C7F384F915F1BA8F00DD9118 /* creadsignal */,
+				C7F384F715F1BA8F00DD9118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F384F715F1BA8F00DD9118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F384F615F1BA8F00DD9118 /* creadsignal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F384F915F1BA8F00DD9118 /* creadsignal */ = {
+			isa = PBXGroup;
+			children = (
+				C7F384FA15F1BA8F00DD9118 /* main.c */,
+				C7F384FC15F1BA8F00DD9118 /* creadsignal.1 */,
+			);
+			path = creadsignal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F384F515F1BA8F00DD9118 /* creadsignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F3850015F1BA8F00DD9118 /* Build configuration list for PBXNativeTarget "creadsignal" */;
+			buildPhases = (
+				C7F384F215F1BA8F00DD9118 /* Sources */,
+				C7F384F315F1BA8F00DD9118 /* Frameworks */,
+				C7F384F415F1BA8F00DD9118 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = creadsignal;
+			productName = creadsignal;
+			productReference = C7F384F615F1BA8F00DD9118 /* creadsignal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F384ED15F1BA8F00DD9118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Lock;
+			};
+			buildConfigurationList = C7F384F015F1BA8F00DD9118 /* Build configuration list for PBXProject "creadsignal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7F384EB15F1BA8F00DD9118;
+			productRefGroup = C7F384F715F1BA8F00DD9118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F384F515F1BA8F00DD9118 /* creadsignal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F384F215F1BA8F00DD9118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F384FB15F1BA8F00DD9118 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7F384FE15F1BA8F00DD9118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7F384FF15F1BA8F00DD9118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7F3850115F1BA8F00DD9118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7F3850215F1BA8F00DD9118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F384F015F1BA8F00DD9118 /* Build configuration list for PBXProject "creadsignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F384FE15F1BA8F00DD9118 /* Debug */,
+				C7F384FF15F1BA8F00DD9118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F3850015F1BA8F00DD9118 /* Build configuration list for PBXNativeTarget "creadsignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3850115F1BA8F00DD9118 /* Debug */,
+				C7F3850215F1BA8F00DD9118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F384ED15F1BA8F00DD9118 /* Project object */;
+}
